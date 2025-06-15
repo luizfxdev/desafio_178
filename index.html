@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Missão Intergaláctica dos Números Primos</title>
+    <link rel="stylesheet" href="background.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Background elements -->
+    <div class="nebula"></div>
+    <div class="stars-container" id="stars-container"></div>
+    <div class="meteors-container" id="meteors-container"></div>
+
+    <!-- Animated background elements -->
+    <div class="star"></div>
+    <div class="meteor-1"></div>
+    <div class="meteor-2"></div>
+    <div class="meteor-3"></div>
+    <div class="meteor-4"></div>
+    <div class="meteor-5"></div>
+    <div class="meteor-6"></div>
+    <div class="meteor-7"></div>
+    <div class="meteor-8"></div>
+    <div class="meteor-9"></div>
+    <div class="meteor-10"></div>
+    <div class="meteor-11"></div>
+    <div class="meteor-12"></div>
+    <div class="meteor-13"></div>
+    <div class="meteor-14"></div>
+    <div class="meteor-15"></div>
+
+    <!-- Main container -->
+    <div class="container">
+      <h1>Missão Intergaláctica</h1>
+      <h2>Identificador de Números Primos</h2>
+
+      <div class="input-group">
+        <label for="numbers-input">Insira os números (separados por vírgula):</label>
+        <input type="text" id="numbers-input" placeholder="Ex: 4, 7, 9, 11, 13, 17, 19, 22" />
+      </div>
+
+      <div class="button-group">
+        <button id="sort-btn">DECIFRAR</button>
+        <button id="reset-btn">RETORNAR</button>
+      </div>
+      <br />
+      <br />
+
+      <div class="result-container">
+        <h3>Resultado da Análise:</h3>
+        <div id="calculation-process"></div>
+        <div id="result-output"></div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="background.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

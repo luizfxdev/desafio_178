@@ -1,0 +1,353 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background-image: radial-gradient(ellipse at top, #080e21 0%, #1b2735 95%);
+}
+
+.star {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 45.6153759899vw 72.87236348vh #fff, 75.4024393529vw 21.814779021vh #fff, 15.546474656vw 29.3330711785vh #fff, 85.2571453246vw 91.7760191325vh #fff, 27.1751696771vw 85.6044108176vh #fff, 51.4712705015vw 20.2189614595vh #fff, 4.5332399947vw 62.2887689238vh #fff, 49.9851566075vw 91.9649929453vh #fff, 73.506392944vw 82.4414553266vh #fff, 35.5999970814vw 93.7784370146vh #fff, 8.3824842364vw 40.2697266284vh #fff, 28.5250929833vw 80.0526247822vh #fff, 45.4432004009vw 69.3981532507vh #fff, 19.6437831831vw 3.8338129499vh #fff, 50.4901615365vw 74.2835785603vh #fff, 96.429333542vw 60.1415135446vh #fff, 41.849422644vw 3.7238714918vh #fff, 75.317807611vw 0.0888918239vh #fff, 75.4881025215vw 52.7082953564vh #fff, 25.6180408535vw 36.4515495565vh #fff, 56.1098644222vw 71.9655563502vh #fff, 8.5078255435vw 22.2026059946vh #fff, 42.1000394431vw 6.850591423vh #fff, 75.8077945732vw 86.6622573817vh #fff, 8.8342670974vw 25.2231424596vh #fff, 84.7622341917vw 25.5454998949vh #fff, 47.7592455157vw 22.7459788841vh #fff, 52.1750303875vw 20.6644123095vh #fff, 28.5727258923vw 13.2690353414vh #fff, 56.5565224785vw 7.971461366vh #fff, 93.4922864645vw 17.3219304254vh #fff, 26.59508619vw 30.352510791vh #fff, 75.0195239515vw 16.6536885833vh #fff, 59.5379048384vw 34.4813575293vh #fff, 40.7833058519vw 99.9045349606vh #fff, 22.8544911907vw 60.3024169394vh #fff, 18.8495584122vw 69.9089181102vh #fff, 40.3884517877vw 9.4892716897vh #fff, 4.0645534772vw 63.0437099973vh #fff, 68.4808794064vw 54.664606514vh #fff, 34.1925436265vw 54.6170037082vh #fff, 16.5484900595vw 50.0997916704vh #fff, 55.2638787496vw 36.4676632168vh #fff, 88.252093727vw 99.5652229679vh #fff, 0.4067673358vw 22.7066847396vh #fff, 74.09281165vw 30.8556173669vh #fff, 57.9398918438vw 36.361259582vh #fff, 79.1020395131vw 84.1801315586vh #fff, 39.2696914045vw 67.6752223736vh #fff, 48.0446898973vw 29.50557006vh #fff, 51.257964331vw 99.8919751048vh #fff, 83.72881016vw 4.051305528vh #fff, 91.2628794857vw 80.0668023072vh #fff, 20.7706220664vw 81.776394348vh #fff, 62.5906618457vw 92.8636862359vh #fff, 19.9173748256vw 34.5822635925vh #fff, 48.3247169201vw 59.6535889212vh #fff, 40.3665604227vw 99.1533757285vh #fff, 36.6764876714vw 14.8150506364vh #fff, 50.1320477749vw 11.8442026858vh #fff, 48.691962782vw 83.4564651979vh #fff, 46.816490537vw 55.8632633411vh #fff, 78.8355254122vw 76.1465611046vh #fff, 62.1998259808vw 17.6917963018vh #fff, 54.3764260258vw 79.5182517699vh #fff, 62.5150665955vw 9.872298821vh #fff, 92.2453443246vw 5.0047156255vh #fff, 70.7013526969vw 88.3615297276vh #fff, 12.5205691335vw 34.9923444761vh #fff, 29.2263531723vw 31.7132742338vh #fff, 94.7730769112vw 33.5861201535vh #fff, 95.8989621007vw 34.4732803342vh #fff, 15.4979770269vw 87.9781320149vh #fff, 60.6085701725vw 59.070920067vh #fff, 6.2274100204vw 15.7052122517vh #fff, 38.7473376913vw 7.5514715313vh #fff, 9.3644548027vw 92.3512090359vh #fff, 9.9879727705vw 25.6606066735vh #fff, 15.418988436vw 26.3677733616vh #fff, 31.0067912375vw 16.1625283539vh #fff, 9.1292076449vw 80.9539787943vh #fff, 17.4828166438vw 6.6653603186vh #fff, 41.6097562449vw 59.8481522239vh #fff, 91.7032849716vw 86.6264662805vh #fff, 76.7382258291vw 98.7236964071vh #fff, 36.2169550964vw 50.4591599631vh #fff, 35.1267518692vw 44.2484696175vh #fff, 13.946199934vw 7.4289471817vh #fff, 44.0767318187vw 14.9047288093vh #fff, 32.585966848vw 55.6534407292vh #fff, 27.3183893874vw 23.0066650292vh #fff, 85.5384665513vw 2.7827132028vh #fff, 26.5275313542vw 39.2283454818vh #fff, 39.2372639834vw 52.9743734521vh #fff, 47.6192546092vw 22.3446461971vh #fff, 57.1058848358vw 80.0841617399vh #fff, 5.0414839681vw 50.3963381474vh #fff, 64.2930407752vw 4.8535366529vh #fff, 3.1374887075vw 51.1362496087vh #fff, 47.2259157347vw 75.1809028202vh #fff, 23.2305111326vw 96.3062292674vh #fff, 24.8584383313vw 0.782487316vh #fff, 51.0056346278vw 66.6487951787vh #fff, 94.5734340268vw 88.467840863vh #fff, 86.1886954294vw 71.3805977439vh #fff, 50.5463471391vw 79.0943621495vh #fff, 53.7278504385vw 23.9645897718vh #fff, 71.0711241298vw 89.1961267683vh #fff, 97.5684244362vw 87.1590585771vh #fff, 97.0651491826vw 29.260890824vh #fff, 47.5966905848vw 22.9383115439vh #fff, 13.9573976796vw 73.586566997vh #fff, 47.3990428519vw 15.9170618997vh #fff, 43.8493863521vw 33.0206519207vh #fff, 44.5443909036vw 59.9144548122vh #fff, 25.4221637962vw 59.2719830473vh #fff, 85.9956984668vw 73.970508146vh #fff, 49.5494976472vw 94.7591566045vh #fff, 6.3961697775vw 66.2551080499vh #fff, 37.8237110139vw 49.4377460227vh #fff, 33.5446512102vw 36.3752539413vh #fff, 25.7399950711vw 7.798207507vh #fff, 78.4495544981vw 88.7058165019vh #fff, 16.0598040963vw 37.1994088029vh #fff, 41.8138875242vw 63.5671328075vh #fff, 38.3285840826vw 81.2956340949vh #fff, 18.4514238148vw 23.6909838175vh #fff, 51.7317127416vw 51.1603978551vh #fff, 82.1729878332vw 31.5996170163vh #fff, 86.9387669565vw 8.5679961183vh #fff, 97.0189952817vw 28.1231721077vh #fff, 13.8775302166vw 66.4345241346vh #fff, 33.7195500627vw 13.4407623744vh #fff, 3.3952890218vw 76.9377819343vh #fff, 1.5326119801vw 96.8182944116vh #fff, 32.5475932307vw 25.1623751198vh #fff, 64.5346845525vw 56.802313971vh #fff, 63.5050486217vw 26.6525085902vh #fff, 64.8072631681vw 51.8855618781vh #fff, 91.3137767917vw 49.7928866376vh #fff, 6.4394656vw 49.2364414531vh #fff, 15.7618793743vw 46.6962949302vh #fff, 20.68709634vw 81.191212528vh #fff, 93.4910545348vw 76.9829618564vh #fff, 87.817046537vw 93.3902358069vh #fff, 58.6284232234vw 30.1460886458vh #fff, 89.4276410263vw 53.6719098989vh #fff, 81.9366542759vw 52.3948653843vh #fff, 18.8188005148vw 41.5850861218vh #fff, 44.9153680652vw 64.6841852507vh #fff, 74.6271182039vw 31.1263243293vh #fff, 74.8711742022vw 58.1755089066vh #fff, 67.71344571vw 84.3730799061vh #fff, 68.2490566777vw 20.8847915867vh #fff, 55.238760573vw 93.9442668287vh #fff, 37.0539801104vw 21.6472220516vh #fff, 45.4953565158vw 52.3154708994vh #fff, 17.7516086455vw 33.2476257117vh #fff, 35.8906404839vw 54.9975217421vh #fff, 18.2624098806vw 23.177392472vh #fff, 79.0481194754vw 65.6655710692vh #fff, 0.5334542649vw 71.2871804473vh #fff, 78.2307922561vw 50.308537434vh #fff, 52.5818920729vw 69.3007912135vh #fff, 13.3101354306vw 55.9558166317vh #fff, 59.373023865vw 33.0261504419vh #fff, 14.5197975612vw 43.8052178134vh #fff, 79.1565024407vw 38.6368155405vh #fff, 42.1230049616vw 14.4890924994vh #fff, 9.073750394vw 66.2536693593vh #fff, 1.9511667241vw 44.9583634016vh #fff, 10.4158571578vw 2.6826552763vh #fff, 12.1087552302vw 77.3990972909vh #fff, 48.9076930068vw 62.5343216129vh #fff, 72.5374030212vw 59.3079037237vh #fff, 31.8122684531vw 35.0637867769vh #fff, 55.0165118832vw 4.5108421983vh #fff, 11.7333364357vw 12.4757652385vh #fff, 60.2820230495vw 37.8198134458vh #fff, 65.0688571885vw 35.5090810287vh #fff, 0.3227709165vw 4.8471133392vh #fff, 87.09949042vw 72.2062041184vh #fff, 39.6563293248vw 78.803421039vh #fff, 43.0903525307vw 61.2645892028vh #fff, 54.9549876812vw 4.4157875332vh #fff, 68.674447023vw 2.7185873344vh #fff, 6.3986030107vw 25.0613610604vh #fff, 21.743898461vw 37.323190647vh #fff, 16.7880208632vw 11.959438581vh #fff, 36.3126565037vw 63.3685097246vh #fff, 92.8002843337vw 63.1223431904vh #fff, 98.8822304245vw 70.2255479736vh #fff, 9.2584293961vw 95.3207291869vh #fff, 51.1909172279vw 88.370139394vh #fff, 16.2864718833vw 97.3074340525vh #fff, 97.1665162632vw 89.5786153601vh #fff, 26.5994590687vw 44.7844604vh #fff, 5.9835103305vw 84.8554211113vh #fff, 25.4851888556vw 6.2943641145vh #fff, 10.7594007533vw 52.0094165746vh #fff, 62.5793247768vw 7.8714870472vh #fff, 3.3312646938vw 64.5595398681vh #fff, 91.2484439254vw 9.4716230819vh #fff, 57.5746939873vw 18.1446629184vh #fff, 10.5773645462vw 71.3757099512vh #fff, 91.7800578928vw 29.9943454806vh #fff, 47.7064235189vw 91.6417582171vh #fff, 56.5899372283vw 97.8040158815vh #fff, 90.3971380475vw 48.8788291891vh #fff, 88.7448009751vw 17.426844806vh #fff, 78.3577803137vw 81.2751555852vh #fff, 66.2698232188vw 74.7875783014vh #fff, 99.2825616609vw 56.7400671593vh #fff, 56.4079761067vw 61.73438575vh #fff, 82.111106643vw 21.2632474637vh #fff, 52.8800533627vw 92.9331465087vh #fff, 39.3854147937vw 24.1648400624vh #fff, 53.5136201393vw 87.1482421752vh #fff, 56.0425859236vw 88.0376182964vh #fff, 66.9055553792vw 24.8791034143vh #fff, 31.1812264447vw 16.9830603103vh #fff, 92.4736205524vw 69.8444778588vh #fff, 58.4224915119vw 67.2902768015vh #fff, 43.9450775134vw 93.3786773676vh #fff, 21.229453812vw 44.4836218239vh #fff, 15.7991342148vw 30.5562745626vh #fff, 65.0159329284vw 60.6308752436vh #fff, 96.6179464973vw 22.3447958625vh #fff, 42.5921277807vw 45.3278198927vh #fff, 26.0078592036vw 61.8735272896vh #fff, 18.3598870386vw 34.2193711082vh #fff, 33.04167437vw 84.018004065vh #fff, 22.3036018478vw 57.6158224346vh #fff, 85.8485513196vw 0.737742025vh #fff, 70.4265407483vw 47.817704815vh #fff, 82.8101291258vw 93.1598816028vh #fff, 18.4495457783vw 82.4402102404vh #fff, 36.3515928955vw 0.7544465329vh #fff, 7.0726908267vw 79.0755373243vh #fff, 24.8189318919vw 38.3499812238vh #fff, 1.0802194199vw 21.0733095701vh #fff, 58.8867978166vw 23.2746076144vh #fff, 22.3429510559vw 74.8983828866vh #fff, 83.766690688vw 37.3627091951vh #fff, 62.957789422vw 60.669677232vh #fff, 99.5195122773vw 20.7922138592vh #fff, 37.3942325018vw 30.3224104982vh #fff, 1.5677462379vw 16.7802856927vh #fff, 62.3037778556vw 79.5981227565vh #fff, 80.8900905624vw 45.9241800595vh #fff, 58.6342474733vw 36.7574422423vh #fff, 8.0856664428vw 76.6860074819vh #fff, 23.2891192422vw 95.5997949208vh #fff, 95.2917484946vw 62.3200606912vh #fff, 88.9612384035vw 66.6075210415vh #fff, 15.7185838098vw 13.31755671vh #fff, 99.2104168894vw 8.1688856249vh #fff, 6.1497676501vw 56.9647257456vh #fff, 78.0686301036vw 24.0047743305vh #fff, 39.560599622vw 17.0111590869vh #fff, 58.8202934884vw 95.737925547vh #fff, 26.5716451932vw 48.4767532461vh #fff, 38.5558766632vw 54.2787263341vh #fff, 24.0119509088vw 95.5153327109vh #fff, 24.5768304489vw 81.1357500896vh #fff, 92.0376790109vw 14.2402410676vh #fff, 36.4182182971vw 75.6451692857vh #fff, 75.358383193vw 61.856193798vh #fff, 30.0316342301vw 67.7599012759vh #fff, 66.2449512632vw 11.734272303vh #fff, 11.8602116477vw 74.2188542307vh #fff, 49.5281084714vw 99.5871811282vh #fff, 97.0351155999vw 23.5060003916vh #fff, 52.1305353003vw 35.0169882637vh #fff, 50.6323023377vw 52.2702976111vh #fff, 92.8003300797vw 74.4649033526vh #fff, 11.2342514073vw 34.6905705835vh #fff, 5.1627670058vw 3.8144035371vh #fff, 90.3902398223vw 41.7478503882vh #fff, 4.0025178122vw 52.6659953502vh #fff, 97.5002462724vw 36.2936870958vh #fff, 37.2010466783vw 28.273371407vh #fff, 78.5684212343vw 11.7361381316vh #fff, 85.220349441vw 94.4417024912vh #fff, 51.0849197003vw 78.5911408346vh #fff, 1.5165124131vw 58.7292475873vh #fff, 57.811689669vw 52.9356182619vh #fff, 55.9110594617vw 42.3912571815vh #fff, 84.7353247591vw 29.0869711956vh #fff, 12.8954017348vw 68.3283778662vh #fff, 11.2888762288vw 83.47516543vh #fff, 51.1715447377vw 71.9329826258vh #fff, 38.2677120704vw 45.9452590112vh #fff, 81.3548537053vw 62.6704218663vh #fff, 37.3587511262vw 50.4570900883vh #fff, 4.524195934vw 85.2874474291vh #fff, 7.0118874403vw 89.3507383346vh #fff, 50.907224003vw 99.0346504101vh #fff, 97.7773609387vw 0.6338241669vh #fff, 13.1790620474vw 96.7439513436vh #fff;
+  z-index: 1;
+}
+
+.meteor-1 {
+  position: absolute;
+  top: 258px;
+  left: 40%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 5.1s linear infinite;
+}
+.meteor-1:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-2 {
+  position: absolute;
+  top: 94px;
+  left: 52%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 9.4s linear infinite;
+}
+.meteor-2:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-3 {
+  position: absolute;
+  top: 224px;
+  left: 22%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 9.5s linear infinite;
+}
+.meteor-3:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-4 {
+  position: absolute;
+  top: 115px;
+  left: 86%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 5.9s linear infinite;
+}
+.meteor-4:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-5 {
+  position: absolute;
+  top: 230px;
+  left: 77%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 6.7s linear infinite;
+}
+.meteor-5:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-6 {
+  position: absolute;
+  top: 244px;
+  left: 52%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 4.1s linear infinite;
+}
+.meteor-6:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-7 {
+  position: absolute;
+  top: 129px;
+  left: 60%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 7.2s linear infinite;
+}
+.meteor-7:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-8 {
+  position: absolute;
+  top: 125px;
+  left: 28%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 3.9s linear infinite;
+}
+.meteor-8:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-9 {
+  position: absolute;
+  top: 284px;
+  left: 20%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 9s linear infinite;
+}
+.meteor-9:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-10 {
+  position: absolute;
+  top: 184px;
+  left: 95%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 6.1s linear infinite;
+}
+.meteor-10:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-11 {
+  position: absolute;
+  top: 206px;
+  left: 30%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 8.4s linear infinite;
+}
+.meteor-11:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-12 {
+  position: absolute;
+  top: 274px;
+  left: 51%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 9s linear infinite;
+}
+.meteor-12:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-13 {
+  position: absolute;
+  top: 264px;
+  left: 34%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 8.8s linear infinite;
+}
+.meteor-13:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-14 {
+  position: absolute;
+  top: 231px;
+  left: 57%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 6.1s linear infinite;
+}
+.meteor-14:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+.meteor-15 {
+  position: absolute;
+  top: 156px;
+  left: 55%;
+  width: 300px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  animation: meteor 4.7s linear infinite;
+}
+.meteor-15:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 3px #fff;
+}
+
+@keyframes meteor {
+  0% {
+    opacity: 1;
+    margin-top: -300px;
+    margin-right: -300px;
+  }
+  12% {
+    opacity: 0;
+  }
+  15% {
+    margin-top: 300px;
+    margin-left: -600px;
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=background.css.map */

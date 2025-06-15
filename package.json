@@ -1,0 +1,19 @@
+{
+  "name": "desafio_178",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "sass": "sass background.scss:background.css",
+    "sass:watch": "sass --watch background.scss:background.css",
+    "dev": "sass --watch background.scss:background.css",
+    "build": "sass background.scss:background.css --style compressed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}
